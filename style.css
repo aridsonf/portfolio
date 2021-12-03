@@ -382,6 +382,30 @@ section .title::after{
 .teams .title::after{
     content: "thing I've done";
 }
+
+.teams .card .box a{
+    border: 3px solid crimson;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+    padding: 10px 20px;
+}
+.teams .card:hover .box a{
+    border: 3px solid white;
+    color: white;
+    background: black;
+
+}
+
+.teams .card .box i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.teams .card:hover .box i{
+    color: #fff;
+}
+
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
