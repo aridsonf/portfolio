@@ -126,6 +126,12 @@ section .title::after{
     color: #fff;
 }
 
+a:link{
+    color: crimson;
+}a:visited{
+    color: crimson;
+}
+
 /* menu btn styling */
 .menu-btn{
     color: #fff;
